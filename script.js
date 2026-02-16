@@ -20,3 +20,10 @@ inputCheck.addEventListener('change', () => {
     elemento.setAttribute("data-bs-theme", modo);
     localStorage.setItem('tema', modo);
 });
+
+const form = document.querySelector('#contato');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('Mensagem enviada com sucesso!');
+});

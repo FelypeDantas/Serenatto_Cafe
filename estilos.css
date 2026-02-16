@@ -59,6 +59,8 @@ input[type="checkbox"]:focus {
 
 [data-bs-theme="dark"] {
   color: white;
+  --marrom-claro: #a88b5e;
+  --marrom-escuro: #5e4b35;
 }
 
 [data-bs-theme="dark"] .nav-link {

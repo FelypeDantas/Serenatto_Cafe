@@ -14,3 +14,11 @@ window.addEventListener('DOMContentLoaded', () => {
         inputCheck.checked = temaSalvo === 'dark';
     }
 });
+
+const prefereDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (prefereDark) {
+  document.body.setAttribute("data-bs-theme", "dark");
+  inputCheck.checked = true;
+}
+

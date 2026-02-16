@@ -57,17 +57,28 @@ input[type="checkbox"]:focus {
   background-color: var(--marrom-claro);
 }
 
-[data-bs-theme="dark"]{
+[data-bs-theme="dark"] {
   color: white;
+}
 
-  .nav-link, .card-body, .offcanvas, .accordion, .btn{
-    --bs-nav-link-color: white;
-    --bs-card-color: white;
-    --bs-offcanvas-color: white;
-    --bs-accordion-color: white;
-    --bs-btn-color: white;
-  }
+[data-bs-theme="dark"] .nav-link {
+  --bs-nav-link-color: white;
+}
 
+[data-bs-theme="dark"] .card-body {
+  --bs-card-color: white;
+}
+
+[data-bs-theme="dark"] .offcanvas {
+  --bs-offcanvas-color: white;
+}
+
+[data-bs-theme="dark"] .accordion {
+  --bs-accordion-color: white;
+}
+
+[data-bs-theme="dark"] .btn {
+  --bs-btn-color: white;
 }
 
 footer{
